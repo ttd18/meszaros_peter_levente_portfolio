@@ -35,7 +35,7 @@ h3 {
 }
 
 .fejlec {
-  background: #0f496b;
+  background: #092b79;
   color: #fff;
   padding: 1rem;
 }
@@ -48,7 +48,7 @@ h3 {
 
 .navigacio a {
   color: #fff;
-  border-bottom: 0.16rem solid #0f496b;
+  border-bottom: 0.16rem solid #092b79;
   display: inline-block;
   font-size: 1rem;
   margin: 0.5rem;
@@ -62,14 +62,15 @@ h3 {
 }
 
 .oldal-cim {
-  background: #0f496b;
-  padding: 2rem 1rem 1rem;
+  background: #092b79;
+  padding: 1rem 0;
 }
 
 .oldal-cim h1 {
   color: #fff;
   margin: 0 auto;
   max-width: 50rem;
+  padding: 0 1rem;
 }
 
 .tartalom {
