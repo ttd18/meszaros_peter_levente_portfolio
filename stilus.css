@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #333;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+ul {
+  margin: 0 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0 0 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0 0 1.6rem;
+}
+
+.fejlec {
+  background: #0f496b;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navigacio {
+  margin: 0 auto;
+  max-width: 50rem;
+  text-align: right;
+}
+
+.navigacio a {
+  color: #fff;
+  border-bottom: 0.16rem solid #0f496b;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.navigacio a.aktiv,
+.navigacio a:hover {
+  border-bottom: 0.16rem solid #fff;
+}
+
+.oldal-cim {
+  background: #0f496b;
+  padding: 2rem 1rem 1rem;
+}
+
+.oldal-cim h1 {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 50rem;
+}
+
+.tartalom {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 2rem 1rem 1rem;
+}
+
+.kartyak {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 2rem;
+}
+
+.kartya {
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  border-radius: 0.2rem;
+  display: inline-block;
+  margin: 0.5rem;
+  max-width: 100%;
+  flex: 16rem;
+}
+
+.kartya img {
+  width: 100%;
+}
+
+.kartya p {
+  margin: 0;
+  padding: 1rem;
+}
